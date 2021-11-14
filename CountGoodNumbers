@@ -1,6 +1,7 @@
 class Solution 
 {
-    public int countGoodNumbers(long n) 
+    public:
+    int countGoodNumbers(long n) 
     {
         int MOD=1_000_000_007;
         long result = n % 2 == 0 ? 1 : 5;
